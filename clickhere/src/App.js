@@ -1,13 +1,13 @@
 import React from 'react';
 import Mainform from "./components/Mainform";
-import Header from "./components/Header";
+import Image from "./components/Image";
 import './App.css';
 
 function App() {
   return (
     <div>
       <Mainform />
-      <Header />
+      <Image /><Image /><Image />
     </div>
   );
 }
