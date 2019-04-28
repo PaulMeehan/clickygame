@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Mainform.css";
+import "../css/Banner.css";
 
 function Mainform(props) {
   return (

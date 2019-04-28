@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Mainform from "./components/Mainform";
+import Banner from "./components/Banner";
 import Image from "./components/Image";
 import './App.css';
 
@@ -72,7 +72,7 @@ class App extends Component {
     images: imagesAry,
     numGuesses: 0,
     highScore: 0,
-    message: "Click on a character"
+    message: "Click on a character. But don't choose the same one twice!"
   };
 
 
@@ -137,20 +137,19 @@ class App extends Component {
 
   render () {
     return (
-      <div class="container">
-        <img src="../images/wb.jpg" alt="background" id="backgroundImg"></img>
-        <Mainform 
+      <div className="container" id="fullScreen">
+        <Banner 
           numGuesses={this.state.numGuesses}
           highScore={this.state.highScore}
           message={this.state.message}
         />
 
         <div className="row" >
-          <div className="col-md-3">
+          <div className="col-md-2">
             {/* blank */}
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-8">
               {this.state.images.map(currentImage => {
                 return (
                   <Image 
@@ -163,7 +162,7 @@ class App extends Component {
               })}
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-2">
             {/* blank */}
           </div>
         </div>

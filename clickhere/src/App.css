@@ -1,19 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#backgroundImage {
-  z-index: 2000;
-  background-image: url("../public/images/wb.jpg");
+#fullScreen {
+  background-color: #c13534;
+  padding-left: 0px;
+  padding-right: 0px;
 }
