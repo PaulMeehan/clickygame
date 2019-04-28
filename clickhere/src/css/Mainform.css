@@ -1,3 +1,23 @@
-.mainDiv {
-  color : red;
+
+#topBanner {
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+#name {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 7px;
+}
+
+#message {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#scores {
+  text-align: right;
 }

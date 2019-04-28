@@ -13,3 +13,7 @@
   color: white;
 }
 
+#backgroundImage {
+  z-index: 2000;
+  background-image: url("../public/images/wb.jpg");
+}

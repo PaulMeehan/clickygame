@@ -4,8 +4,18 @@ import "../css/Mainform.css";
 function Mainform(props) {
   return (
     <div className="container">
-      <div className="jumbotron">
-        This is the top of the main form.  Number of guesses = {props.numGuesses}.  High Score = {props.highScore}
+      <div className="row" id="topBanner">
+        <div className="col-md-4" id="name">
+          Clicky Game!
+        </div>
+        <div className="col-md-4" id="message">
+          {props.message}
+        </div>
+        <div className="col-md-4" id="scores">
+          Your score = {props.numGuesses}
+          <br />
+          Top Score = {props.highScore} 
+        </div>
       </div>
     </div>
   );
