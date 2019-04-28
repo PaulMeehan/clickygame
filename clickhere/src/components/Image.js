@@ -1,13 +1,15 @@
 import React from "react";
 import "../css/Image.css";
 
-function Image() {
+function Image({
+  source,
+  ref
+}) {
   return (
-    <div className="images">
-      <div className="card mb-4">
-        <div className = "card-body">
-          <img src="../images/daffy.jpg" alt="Daffy" heigh="100px" width="100px"></img>
-        </div>
+    <div className="card imageCard">
+      <div className = "card-body">
+        <img src={source} className="images" alt="character"></img>
+        Image #: {ref}
       </div>
     </div>
   );

@@ -1,4 +1,10 @@
 .images {
-  color : blue;
-  width : 150px;
+  height : 120px;
+  width : 100px;
+}
+
+.imageCard {
+  width : 140px;
+  display : inline-block;
+  margin : 10px;
 }
