@@ -5,62 +5,62 @@ import './App.css';
 
 const imagesAry = [
   {
-    url: "../images/buggs.jpg",
+    url: "images/buggs.jpg",
     refId: 0,
     selected: false
   },
   {
-    url: "../images/daffy.jpg",
+    url: "images/daffy.jpg",
     refId: 1,
     selected: false
   },
   {
-    url: "../images/elmer.jpg",
+    url: "images/elmer.jpg",
     refId: 2,
     selected: false
   },
   {
-    url: "../images/foghorn.jpg",
+    url: "images/foghorn.jpg",
     refId: 3,
     selected: false
   },
   {
-    url: "../images/marvin.png",
+    url: "images/marvin.png",
     refId: 4,
     selected: false
   },
   {
-    url: "../images/porky.png",
+    url: "images/porky.png",
     refId: 5,
     selected: false
   },
   {
-    url: "../images/sam.png",
+    url: "images/sam.png",
     refId: 6,
     selected: false
   }, 
   {
-    url: "../images/sylvester.png",
+    url: "images/sylvester.png",
     refId: 7,
     selected: false
   }, 
   {
-    url: "../images/taz.jpg",
+    url: "images/taz.jpg",
     refId: 8,
     selected: false
   }, 
   {
-    url: "../images/tweety.png",
+    url: "images/tweety.png",
     refId: 9,
     selected: false
   }, 
   {
-    url: "../images/wile.jpg",
+    url: "images/wile.jpg",
     refId: 10,
     selected: false
   },
   {
-    url: "../images/gossamer.jpg",
+    url: "images/gossamer.jpg",
     refId: 11,
     selected: false
   }
