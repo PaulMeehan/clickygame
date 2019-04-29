@@ -120,8 +120,7 @@ class App extends Component {
       this.shakeImages();
 
       newMessage = "Game over, loser!  Start again.";
-      for (var i=0; i < (imagesAry.length - 1); i++) {
-        console.log(i);
+      for (var i=0; i < imagesAry.length; i++) {
         imagesAry[i].selected = false;
       }
     }
@@ -132,7 +131,6 @@ class App extends Component {
       highScore: newHighScore,
       message: newMessage
     });
-    console.log(imagesAry);
   }
 
   render () {
