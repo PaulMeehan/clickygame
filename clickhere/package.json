@@ -2,6 +2,7 @@
   "name": "clickhere",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paulmeehan.github.io/clickygame/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -29,6 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://paulmeehan.github.io/clickygame/clickhere/"
+  }
 }
