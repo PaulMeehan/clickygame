@@ -10,37 +10,37 @@ const imagesAry = [
     selected: false
   },
   {
-    url: "/images/daffy.jpg",
+    url: "images/daffy.jpg",
     refId: 1,
     selected: false
   },
   {
-    url: "./images/elmer.jpg",
+    url: "images/elmer.jpg",
     refId: 2,
     selected: false
   },
   {
-    url: "../images/foghorn.jpg",
+    url: "images/foghorn.jpg",
     refId: 3,
     selected: false
   },
   {
-    url: "public/images/marvin.png",
+    url: "images/marvin.png",
     refId: 4,
     selected: false
   },
   {
-    url: "/public/images/porky.png",
+    url: "images/porky.png",
     refId: 5,
     selected: false
   },
   {
-    url: "./public/images/sam.png",
+    url: "images/sam.png",
     refId: 6,
     selected: false
   }, 
   {
-    url: "../public/images/sylvester.png",
+    url: "images/sylvester.png",
     refId: 7,
     selected: false
   }, 
@@ -50,17 +50,17 @@ const imagesAry = [
     selected: false
   }, 
   {
-    url: "clickhere/images/tweety.png",
+    url: "images/tweety.png",
     refId: 9,
     selected: false
   }, 
   {
-    url: "/clickhere/images/wile.jpg",
+    url: "images/wile.jpg",
     refId: 10,
     selected: false
   },
   {
-    url: "./clickhere/images/gossamer.jpg",
+    url: "images/gossamer.jpg",
     refId: 11,
     selected: false
   }
